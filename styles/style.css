@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*
+font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+:root {
+  --cta-txt-color: hsl(356, 100%, 66%);
+  --cta-bg-hover: hsl(355, 100%, 74%);
+  --heading-txt-color: hsl(208, 49%, 24%);
+  --white: hsl(0, 0%, 100%);
+  --footer-txt-color: hsl(240, 2%, 79%);
+  --body-txt-color: hsl(207, 13%, 34%);
+  --footer-bg-color: hsl(240, 10%, 16%);
+  --pry-bg-gradient: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  --sec-bg-gradient: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+}
+
+
+
+body {
+  color: var(--body-txt-color);
+}
+
+
+
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+
