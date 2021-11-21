@@ -5,6 +5,18 @@ font-family: 'Overpass', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 */
 
+/*Demo styles begin*/
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 200vw;
+  
+}
+
+body > img {
+  order: 2;
+}
+/* Demo styles end */
 
 :root {
   --cta-txt-color: hsl(356, 100%, 66%);
@@ -22,6 +34,10 @@ font-family: 'Ubuntu', sans-serif;
 
 body {
   color: var(--body-txt-color);
+}
+
+h1, h2, h3, h4 {
+  color: var(--heading-txt-color);
 }
 
 
