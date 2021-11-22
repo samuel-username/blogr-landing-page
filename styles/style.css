@@ -24,18 +24,24 @@ h1, h2, h3, h4 {
   font-weight: 600;
 }
 
-header {
-  color: white;
-  background-color: var(--pry-bg-gradient);
-  border-bottom-left-radius: var(--border-rad);
-  background-image: url('../images/bg-pattern-intro.svg');
-  background-size: contain;
-}
-
 header, main {
   font-family: 'Overpass', sans-serif;
 }
 
+header {
+  color: white;
+  background-image: var(--pry-bg-gradient);
+  border-bottom-left-radius: var(--border-rad);
+  overflow: hidden;
+}
+
+header .pattern {
+  inset: 0;
+  border: 10px solid black;
+  background-image: url('../images/bg-pattern-intro.svg');
+  background-size: 150%;
+  transform: scale(2) translate(-3em, 3em);
+}
 
 
 footer {
