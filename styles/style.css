@@ -9,7 +9,7 @@
   --footer-bg-color: hsl(240, 10%, 16%);
   --pry-bg-gradient: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   --sec-bg-gradient: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  --border-rad: 8em;
+  --border-rad: 6em;
 }
 
 
@@ -37,12 +37,15 @@ header {
 
 header .pattern {
   inset: 0;
-  border: 10px solid black;
   background-image: url('../images/bg-pattern-intro.svg');
-  background-size: 150%;
-  transform: scale(2) translate(-3em, 3em);
+  background-size: cover;
+  transform: scale(2.5) translate(-2em, 5em);
 }
 
+header h1 {
+  font-weight: 600;
+  font-size: 2.3rem;
+}
 
 footer {
   background-color: var(--footer-bg-color);
@@ -55,11 +58,11 @@ footer {
 
 footer .head-list-item {
   color: white;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 footer li {
-  padding: .5em;
+  padding: .2em;
 }
 
 .attribution { 
