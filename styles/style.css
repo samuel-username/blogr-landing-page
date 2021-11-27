@@ -13,8 +13,6 @@
   --border-rad: 6em;
 }
 
-
-
 body {
   text-align: center!important;
 }
@@ -53,6 +51,10 @@ header p {
   color: var(--grey);
 }
 
+section.one {
+  margin-bottom: 10em!important;
+}
+
 section.two {
   background: var(--sec-bg-gradient);
   border-radius: 0 var(--border-rad);
@@ -68,10 +70,12 @@ section.two p {
 
 section.two .pattern {
   inset: 0;
-  background-image: url("../images/bg-pattern-circles.svg");
-  background-size: 120%;
-  background-repeat: no-repeat;
   overflow: hidden;
+  border-radius: inherit;
+}
+
+section .pattern-img {
+  transform: scale(1.5) translateY(-4em);
 }
 
 section.two .phones-img {
@@ -97,11 +101,13 @@ footer li {
 }
 
 .attribution { 
-  font-size: 11px; text-align: center; 
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  background-color: var(--footer-bg-color);
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: var(--heading-txt-color); 
 }
-
 
