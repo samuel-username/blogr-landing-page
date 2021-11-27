@@ -17,7 +17,7 @@ body {
   text-align: center!important;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   color: var(--heading-txt-color);
   font-weight: 600;
 }
@@ -32,14 +32,24 @@ header {
   color: white;
   background-image: var(--pry-bg-gradient);
   border-bottom-left-radius: var(--border-rad);
-  overflow: hidden;
 }
 
 header .pattern {
   inset: 0;
+  display: flex;
+  place-items: center;
+  overflow: hidden;
+  border-radius: inherit
+  /*
   background-image: url('../images/bg-pattern-intro.svg');
   background-size: cover;
   transform: scale(2.4) translate(-2em, 4em);
+  */
+}
+
+header .pattern-img {
+  width: 100%;
+  transform: scale(3.2) translate(2em, 2em)
 }
 
 header h1 {
@@ -51,12 +61,37 @@ header p {
   color: var(--grey);
 }
 
+.navbar-collapse {
+  top: 150%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  font-weight: 600;
+}
+
+.navbar-collapse .dropdown-toggle {
+  font-size: 1.2rem;
+}
+
+.dropdown-menu {
+  background-color: #efeff1!important;
+  width: 100%;
+  text-align: center!important;
+  transition: .2s;
+}
+
+.dropdown-item {
+  color: slategray!important;
+  font-weight: 600!important;
+  padding: .5em!important
+}
+
 .cta-container .btn {
   font-weight: 600!important;
 }
 
-.cta-container .btn:hover {
-  box-shadow: none;
+.btn:hover {
+  box-shadow: none!important;
 }
 
 .cta-1 {
@@ -92,7 +127,7 @@ section.two .pattern {
   border-radius: inherit;
 }
 
-section .pattern-img {
+section.two .pattern-img {
   transform: scale(1.5) translateY(-4em);
 }
 
