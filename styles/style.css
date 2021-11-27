@@ -51,6 +51,24 @@ header p {
   color: var(--grey);
 }
 
+.cta-container .btn {
+  font-weight: 600!important;
+}
+
+.cta-container .btn:hover {
+  box-shadow: none;
+}
+
+.cta-1 {
+  background-color: white!important;
+  color: var(--cta-txt-color)!important;
+}
+
+.cta-2 {
+  border: .1em solid white!important;
+  color: white!important;
+}
+
 section.one {
   margin-bottom: 10em!important;
 }
