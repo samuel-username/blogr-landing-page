@@ -86,6 +86,10 @@ header p {
   padding: .5em!important
 }
 
+.signup-btn {
+  background: var(--pry-bg-gradient);
+}
+
 .cta-container .btn {
   font-weight: 600!important;
 }
