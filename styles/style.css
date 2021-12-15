@@ -165,6 +165,6 @@ footer li {
 }
 
 .attribution a { 
-  color: var(--heading-txt-color); 
+  color: hsl(13, 100%, 72%); 
 }
 
